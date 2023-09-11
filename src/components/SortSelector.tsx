@@ -15,6 +15,12 @@ const SortSelector = ({ onSelectSortOrder, selectedSorting }: Props) => {
     { value: "-metacritic", label: "Populariry" },
     { value: "-rating", label: "Average Rating" },
   ];
+
+  
+  
+  
+
+  
   return (
     <Menu>
       <MenuButton as={Button} rightIcon={<BsChevronDown />}>
@@ -38,3 +44,5 @@ const SortSelector = ({ onSelectSortOrder, selectedSorting }: Props) => {
 };
 
 export default SortSelector;
+
+
